@@ -1,0 +1,38 @@
+{
+  "info": {
+    "brand": "Advance (Signify)",
+    "model": "Xitanium XI085C240V054BST2",
+    "min_input_volts": 108,
+    "max_input_volts": 305,
+    "max_power": 85.0,
+    "max_voltage": 54.0,
+    "min_voltage": 10.0,
+    "efficiency_blend_weight": 1.0
+  },
+  "curves": {
+    "efficiency_vs_load": {
+      "load_percent": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+      "efficiency": [0.72, 0.78, 0.82, 0.84, 0.86, 0.87, 0.875, 0.88, 0.88, 0.875]
+    },
+    "efficiency_vs_vout_120": {
+      "vout_v": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55],
+      "efficiency": [0.79, 0.83, 0.855, 0.87, 0.882, 0.89, 0.896, 0.9, 0.902, 0.904]
+    },
+    "efficiency_vs_vout_277": {
+      "vout_v": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55],
+      "efficiency": [0.78, 0.82, 0.85, 0.87, 0.885, 0.895, 0.902, 0.908, 0.912, 0.916]
+    },
+    "efficiency_vs_output_power": {
+      "power_w": [38.5, 42.84, 43.69, 47.98, 49.1, 53.34, 54.39, 58.42, 60.1],
+      "efficiency": [0.9053, 0.9076, 0.9081, 0.9068, 0.911, 0.9087, 0.9133, 0.9128, 0.901]
+    },
+    "current_derating_vs_temp": {
+      "temp_c": [25, 50, 60, 70, 80, 85, 88, 90, 95],
+      "output_percent": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.80, 0.50, 0.0]
+    },
+    "iv_curve_led": {
+      "current_amps": [0.0, 0.1, 0.35, 0.7, 1.0, 1.4, 2.0, 2.4],
+      "volts_per_led": [2.5, 2.6, 2.75, 2.85, 2.95, 3.05, 3.15, 3.25]
+    }
+  }
+}

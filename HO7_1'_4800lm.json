@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "Fortimo edge VO LV2",
+    "model": "HO7 1' 4800lm",
+    "manufacturer": "Signify (Advance)",
+    "series_count": 1,
+    "nominal_current": 0.600,
+    "max_current": 0.920,
+    "typical_voltage": 44.7,
+    "lumens": 4800
+  },
+  "curves": {
+    "iv_curve_led": {
+      "current_amps": [0.30, 0.48, 0.60, 0.745, 0.89],
+      "volts_per_led": [43.6, 44.2, 44.7, 45.3, 46.0]
+    },
+    "efficiency_vs_current": {
+      "current_amps": [0.30, 0.48, 0.60, 0.745, 0.89],
+      "rel_flux_percent": [1.07, 1.03, 1.00, 0.97, 0.95]
+    },
+    "thermal_derating": {
+      "temp_c": [0, 25, 65, 90],
+      "flux_factor": [1.07, 1.04, 1.00, 0.97]
+    }
+  }
+}

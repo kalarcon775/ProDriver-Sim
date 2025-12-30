@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "Fortimo edge VO LV2",
+    "model": "HO7 6400lm",
+    "manufacturer": "Signify (Advance)",
+    "series_count": 1,
+    "nominal_current": 0.800,
+    "max_current": 1.350,
+    "typical_voltage": 44.7,
+    "lumens": 6400
+  },
+  "curves": {
+    "iv_curve_led": {
+      "current_amps": [0.40, 0.64, 0.80, 1.04, 1.28],
+      "volts_per_led": [41.7, 43.8, 44.7, 45.5, 46.0]
+    },
+    "efficiency_vs_current": {
+      "current_amps": [0.40, 0.64, 0.80, 1.04, 1.28],
+      "rel_flux_percent": [1.07, 1.03, 1.00, 0.97, 0.93]
+    },
+    "thermal_derating": {
+      "temp_c": [0, 25, 65, 95],
+      "flux_factor": [1.07, 1.04, 1.00, 0.96]
+    }
+  }
+}
